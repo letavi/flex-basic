@@ -1,0 +1,21 @@
+div.parent {
+  width: 700px;
+  display: flex;
+}
+
+img.child-one {
+  width: 280px;
+  margin-right: 20px;
+}
+
+img.child-two {
+  width: 380px;
+}
+
+img.child-one, img.child-two {
+  height: 250px;
+}
+
+h1, img.child-one {
+  margin-left: 20px;
+}
